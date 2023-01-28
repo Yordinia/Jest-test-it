@@ -1,1 +1,23 @@
 
+## Installing webpack
+----------------------------------------------------------------
+npm init -y
+npm install  webpack webpack-cli --save-dev
+ // create dist folder and move index there
+// remove main and set privacy true in json file
+npm install --save lodash
+
+
+
+----------------------------------------------------------------
+
+initialize it
+install wbpack locally
+(if you just want to use webpack only for bundling_)
+npm install --save-dev web-pack , if you want to use webpack in production, ignore savedev, 
+
+to install webpack-cli if you're using v4 or later, add -cli to be able to access it in cli
+npm install --save-dev webpack-cli 
+
+To run the local installation of webpack you can access its binary version as node_modules/.bin/webpack. Alternatively, if you are using npm v5.2.0 or greater, you can run npx webpack to do it.
+
