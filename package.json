@@ -1,12 +1,15 @@
 {
   "name": "jest-test-it",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet) This is a project I created and test couple of JS projects using JEST",
   "main": "calculator-test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
