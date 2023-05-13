@@ -4,12 +4,15 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet) This is a project I created and test couple of JS projects using JEST",
   "main": "calculator-test.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
     "jest": "^29.5.0"
   }
 }
