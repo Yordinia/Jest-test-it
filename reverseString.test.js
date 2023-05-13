@@ -3,6 +3,6 @@ const reverseString = require('./reverseString');
 
 test('String is reversed correctly', () => {
   expect(reverseString('hello')).toBe('olleh');
-  expect(reverseString(true)).toThrow(TypeError);
+  expect(reverseString(true)).toEqual(TypeError('Input must be a string'));
 
 });
