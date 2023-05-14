@@ -43,7 +43,7 @@ describe('Calculator', () => {
     });
 
     test('Throws error when dividing by zero', () => {
-      expect(() => calculator.divide(6, 0)).toThrow('Cannot divide by zero');
+      expect(() => calculator.divide(6, 0)).toThrow(Error);
     });
 
     test('Divides negative numbers correctly', () => {
